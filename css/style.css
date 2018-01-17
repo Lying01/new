@@ -1,0 +1,148 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.list-block{
+    margin-top: 20px;
+}
+
+.list-block,
+.list-block select,
+.list-block input,
+.list-block input[type=date],
+.list-block input[type=datetime-local],
+.list-block input[type=email],
+.list-block input[type=number],
+.list-block input[type=password],
+.list-block input[type=search],
+.list-block input[type=tel],
+.list-block input[type=text],
+.list-block input[type=time],
+.list-block input[type=url],
+.list-block select,
+.list-block textarea {
+    font-size: 14px;
+}
+
+.switch {
+    display:inline-block;
+    overflow:hidden;
+    position:relative;
+    float: right;
+    border:solid 1px #30B54C;
+    background-color:#9F9F9F;
+    height:25px;
+    width:50px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.switch-btn {
+    position:absolute;
+    top:0;
+    left: 0;
+    height:25px;
+    width:25px;
+    background-color:#fff;
+    border-left:solid 25px #30B54C;
+}
+
+.list-block input{
+    font-size: 16px;
+}
+
+.item-input{
+    font-size: 14px;
+}
+
+.button.button-fill{
+    background: #30B54C;
+}
+
+.content-block .button{
+    position: absolute;
+    bottom: 20px;
+    width: 90%;
+}
+
+/*LOOP - Font Size */
+.f-s-2 {
+    font-size: 2px !important;
+}
+
+.f-s-4 {
+    font-size: 4px !important;
+}
+
+.f-s-6 {
+    font-size: 6px !important;
+}
+
+.f-s-8 {
+    font-size: 8px !important;
+}
+
+.f-s-10 {
+    font-size: 10px !important;
+}
+
+.f-s-12 {
+    font-size: 12px !important;
+}
+
+.f-s-14 {
+    font-size: 14px !important;
+}
+
+.f-s-16 {
+    font-size: 16px !important;
+}
+
+.f-s-18 {
+    font-size: 18px !important;
+}
+
+.f-s-20 {
+    font-size: 20px !important;
+}
+
+.f-s-22 {
+    font-size: 22px !important;
+}
+
+.f-s-24 {
+    font-size: 24px !important;
+}
+
+.f-s-26 {
+    font-size: 26px !important;
+}
+
+.f-s-28 {
+    font-size: 28px !important;
+}
+
+.f-s-30 {
+    font-size: 30px !important;
+}
+
+.f-s-32 {
+    font-size: 32px !important;
+}
+
+.f-s-34 {
+    font-size: 34px !important;
+}
+
+.f-s-36 {
+    font-size: 36px !important;
+}
+
+.f-s-38 {
+    font-size: 38px !important;
+}
+
+.f-s-40 {
+    font-size: 40px !important;
+}
