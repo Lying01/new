@@ -1,3 +1,4 @@
+/*newAddress*/
 html, body {
     height: 100%;
     margin: 0;
@@ -145,4 +146,81 @@ html, body {
 
 .f-s-40 {
     font-size: 40px !important;
+}
+
+/*-----address-----*/
+.address-ul{
+    font-size: 14px;
+}
+
+.address-li:first-child{
+    margin-top: 0;
+}
+
+.address-li{
+    background-color: #FFFFFF;
+    margin-top: 10px;
+}
+
+/*信息栏*/
+.address-li .address-info{
+    padding:10px 15px;
+}
+
+.address-li .address-info .addressee{
+    display: inline-block;
+    width: 100px;
+}
+
+.address-li .address-info .phone-num{
+    display: inline-block;
+    float: right;
+    position: absolute;
+    right: 20px;
+}
+
+.address-li .address-info .address{
+    margin-top: 5px;
+}
+
+.address-li .handle{
+    border-top: 1px solid #f0f0f0;
+    padding:10px;
+    height: 20px;
+}
+
+.address-li .handle .edit{
+    background-color: #30B54C;
+    color: #FFFFFF;
+    padding:3px 15px;
+    border-style: none;
+    float: left;
+    position: absolute;
+    left: 30px;
+}
+
+.address-li .handle .delete{
+    background-color: #9F9F9F;
+    color: #FFFFFF;
+    padding:3px 15px;
+    border-style: none;
+    float: right;
+    position: absolute;
+    right: 30px;
+}
+
+.addNew{
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+}
+.addNew button{
+    font-size: 17px;
+    background-color: #30B54C;
+    color: #FFFFFF;
+    border-style: none;
+    width: 90%;
+    margin: 0 5%;
+    padding:10px 20px;
+    border-radius: 5px;
 }
