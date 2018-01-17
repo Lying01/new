@@ -183,32 +183,6 @@ html, body {
     margin-top: 5px;
 }
 
-.address-li .handle{
-    border-top: 1px solid #f0f0f0;
-    padding:10px;
-    height: 20px;
-}
-
-.address-li .handle .edit{
-    background-color: #30B54C;
-    color: #FFFFFF;
-    padding:3px 15px;
-    border-style: none;
-    float: left;
-    position: absolute;
-    left: 30px;
-}
-
-.address-li .handle .delete{
-    background-color: #9F9F9F;
-    color: #FFFFFF;
-    padding:3px 15px;
-    border-style: none;
-    float: right;
-    position: absolute;
-    right: 30px;
-}
-
 .addNew{
     position: absolute;
     bottom: 20px;
